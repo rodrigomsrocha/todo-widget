@@ -17,13 +17,25 @@
         "open": true
       }
     },
+    "systemTray": {
+      "iconPath": "icons/icon.png",
+      "iconAsTemplate": true
+    },
     "windows": [
       {
         "fullscreen": false,
-        "resizable": true,
-        "title": "todo-widget",
-        "width": 800,
-        "height": 600
+        "resizable": false,
+        "title": "menubar",
+        "width": 300,
+        "height": 400,
+        "visible": false,
+        "hiddenTitle": true,
+        "titleBarStyle": "Overlay",
+        "closable": false,
+        "minimizable": false,
+        "decorations": false,
+        "focus": false,
+        "transparent": true
       }
     ],
     "security": {
